@@ -365,7 +365,7 @@ nav.links a:hover::after {
 .about-photo img {
   border-radius: 20px;
   width: 100%;
-  height: clamp(280px, 30vw, 360px);
+  height: 70%;
   object-fit: cover;
   object-position: center top;
   display: block;
@@ -373,7 +373,7 @@ nav.links a:hover::after {
 }
 .about-photo .tag {
   position: absolute;
-  bottom: -22px;
+  top: 22px;
   left: -22px;
   background: var(--coral);
   color: #fff;
