@@ -1,5 +1,11 @@
 const btn = document.getElementById("menuBtn");
 const nav = document.getElementById("navLinks");
+const logo = document.querySelector(".brand img");
+const favicon = document.createElement("link");
+favicon.rel = "icon";
+favicon.href = logo.src;
+document.head.appendChild(favicon);
+
 btn.addEventListener("click", () => nav.classList.toggle("open"));
 nav
   .querySelectorAll("a")
